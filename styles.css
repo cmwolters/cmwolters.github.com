@@ -10,6 +10,10 @@
 		
 	*/
 	
+/*
+ * Default styles
+ */
+
 	html {
 		padding-top:25px;
 		padding-bottom:25px;
@@ -30,11 +34,12 @@
 		font-family:'Roboto Condensed', sans-serif;
 		}
 		
-ul {
+	nav ul {
 	list-style-type:none;
 	}
 
-li {
+	nav li {
+	list-style-type:none;
 	display: inline;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -76,5 +81,37 @@ li {
 		font-size: 0.8em;
 		clear: both;
 		}
+		
+@media screen (and min-width: 300px) {	
+	
+		
+	#nav {
+		float: left;
+		width: 30%
+		text-transform: uppercase;
+		font-weight: strong;
+		opacity: 0.8;
+		}
+	
+	nav ul {
+		list-style-type:none;
+	}
+
+	nav li {
+		display: block;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+		
+	#content {	
+		color: #000066;
+		width: 50%
+		text-align: justify;
+		float: right;
+		padding: 5px;
+		}	
+		
+	}
+			
 		
 </style>
