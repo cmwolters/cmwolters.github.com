@@ -1,0 +1,52 @@
+@media screen and (min-width: 768px) {	
+	
+		
+	nav {
+		float: center;
+		width: 70%;
+		text-transform: uppercase;
+		font-weight: strong;
+		opacity: 0.8;
+		}
+	
+	nav ul {
+		list-style-type: none;
+	}
+
+	nav li {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+		
+	img {
+		float: left;
+		margin: 10px 10px;
+		border-style: groove;
+		border-width: 5px;
+		}		
+		
+	#content {	
+		color: #000066;
+		width: 50%
+		text-align: justify;
+		float: right;
+		padding: 5px;
+		}	
+		
+	}	
+/*
+ * 500px and wider
+ */
+@media screen and (min-width: 500px) {
+
+}
+
+
+
+
+
+
+/*
+ * Print styles
+ */
+@media print {		
