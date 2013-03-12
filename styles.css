@@ -1,6 +1,3 @@
-<style>
-<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic,400,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
-
 	/*
 	
 	selector {
@@ -28,7 +25,7 @@
 	
 	body {
 		background-image: url(wall4.png);
-		background-color: FFFFFF;
+		background-color: #FFFFFF;
 		background-attachment: fixed;
 		background-position: center;
 		font-family:'Roboto Condensed', sans-serif;
@@ -37,7 +34,8 @@
 	nav ul {
 	list-style-type: none;
 	}
-
+	
+	
 	nav li {
 	display: inline;
 	padding-left: 15px;
@@ -50,7 +48,8 @@
 		}
 					
 	
-	#nav {
+	nav {
+		display: inline;
 		text-align: center;
 		text-transform: uppercase;
 		font-weight: strong;
@@ -59,6 +58,7 @@
 		padding-right: 15px;
 		}
 		
+	
 			
 	#content {	
 		color: #000066;
@@ -68,7 +68,7 @@
 		padding: 20px;
 		}
 	
-	#blockquote {
+	blockquote {
 		font-style: italic;
 		}	
 		
@@ -81,36 +81,5 @@
 		clear: both;
 		}
 		
-@media screen (and min-width: 300px) {	
-	
-		
-	#nav {
-		float: left;
-		width: 30%
-		text-transform: uppercase;
-		font-weight: strong;
-		opacity: 0.8;
-		}
-	
-	nav ul {
-		list-style-type:none;
-	}
-
-	nav li {
-		display: block;
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-		
-	#content {	
-		color: #000066;
-		width: 50%
-		text-align: justify;
-		float: right;
-		padding: 5px;
-		}	
 		
 	}
-			
-		
-</style>
