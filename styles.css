@@ -10,6 +10,7 @@
 /*
  * Default styles
  */
+ 
 
 	html {
 		padding-top:25px;
@@ -62,7 +63,6 @@
 			
 	#content {	
 		color: #000066;
-		margin: auto;
 		text-align: justify;
 		float: right;
 		padding: 20px;
@@ -80,6 +80,3 @@
 		font-size: 0.8em;
 		clear: both;
 		}
-		
-		
-	}

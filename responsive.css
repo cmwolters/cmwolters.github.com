@@ -3,7 +3,52 @@
 		
 	nav {
 		float: center;
-		width: 70%;
+		display: inline;
+		margin: auto;
+		text-transform: uppercase;
+		font-weight: strong;
+		opacity: 0.8;
+		}
+	
+	nav ul {
+		list-style-type: none;
+	}
+
+	nav li {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	li {
+		list-style-position: inside;
+		} 
+		
+	img {
+		float: right;
+		display: block;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		border-style: groove;
+		border-width: 5px;
+		}		
+		
+	#content {	
+		color: #000066;
+		text-align: justify;
+		float: left;
+		padding: 5px;
+		}	
+		
+	}	
+/*
+ * 500px and wider
+ */
+@media screen and (min-width: 500px) {
+
+nav {
+		float: center;
+		display: block;
+		margin: auto;
 		text-transform: uppercase;
 		font-weight: strong;
 		opacity: 0.8;
@@ -20,29 +65,59 @@
 		
 	img {
 		float: left;
-		margin: 10px 10px;
+		display: block;
+		margin-right: 10px;
+		margin-bottom: 10px;
 		border-style: groove;
 		border-width: 5px;
 		}		
 		
 	#content {	
 		color: #000066;
-		width: 50%
 		text-align: justify;
 		float: right;
 		padding: 5px;
 		}	
 		
 	}	
+
+
 /*
- * 500px and wider
+ * 300px and wider
  */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 300px) {
+
+nav {
+		display: block;
+		float: center;
+		margin: auto;
+		text-transform: uppercase;
+		font-weight: strong;
+		opacity: 0.8;
+		}
+	
+	nav ul {
+		list-style-type: none;
+	}
+
+
+		
+	img {
+		display: block;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		border-style: groove;
+		border-width: 5px;
+		}		
+		
+	#content {	
+		color: #000066;
+		text-align: justify;
+		float: right;
+		padding: 5px;
+		}
 
 }
-
-
-
 
 
 
@@ -50,3 +125,52 @@
  * Print styles
  */
 @media print {		
+nav {
+		float: center;
+		display: inline;
+		margin: auto;
+		color: black;
+		text-transform: uppercase;
+		font-weight: strong;
+		}
+	
+	nav ul {
+		list-style-type: none;
+	}
+
+	nav li {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+		
+	li {
+		list-style-position: inside;
+		} 
+	
+	h1 {
+		color: black;
+		}
+	
+		
+	img {
+		float: left;
+		display: block;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		border-style: groove;
+		border-width: 5px;
+		}		
+		
+	#content {	
+		color: black;
+		text-align: justify;
+		}
+
+	#footer	{
+		border-top-style: solid;
+		color: black;
+		font-size: 0.8em;
+		clear: both;
+		}
+
+}
