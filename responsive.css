@@ -23,17 +23,26 @@
 		list-style-position: inside;
 		} 
 		
+	blockquote {
+		margin-top: 10px;
+ 		margin-bottom: 10px;
+ 		margin-left: 250px;
+  		padding-left: 7px;
+  		padding-right: 30px;
+  		border-left: 3px solid #1D471D;
+	}
+		
 	img {
 		float: right;
 		display: block;
 		margin-right: 10px;
 		margin-bottom: 10px;
 		border-style: groove;
+		border-color: #1D471D;
 		border-width: 5px;
 		}		
 		
 	#content {	
-		color: #000066;
 		text-align: justify;
 		float: left;
 		padding: 5px;
@@ -62,18 +71,19 @@ nav {
 		padding-left: 15px;
 		padding-right: 15px;
 	}
-		
+
+
 	img {
 		float: left;
 		display: block;
 		margin-right: 10px;
 		margin-bottom: 10px;
 		border-style: groove;
+		border-color: #1D471D;
 		border-width: 5px;
 		}		
 		
 	#content {	
-		color: #000066;
 		text-align: justify;
 		float: right;
 		padding: 5px;
@@ -89,7 +99,7 @@ nav {
 
 nav {
 		display: block;
-		float: center;
+		float: left;
 		margin: auto;
 		text-transform: uppercase;
 		font-weight: strong;
@@ -105,11 +115,11 @@ nav {
 		margin-right: 10px;
 		margin-bottom: 10px;
 		border-style: groove;
+		border-color: #1D471D;
 		border-width: 5px;
 		}		
 		
 	#content {	
-		color: #000066;
 		text-align: justify;
 		float: right;
 		padding: 5px;
@@ -135,6 +145,10 @@ nav {
 	nav ul {
 		list-style-type: none;
 	}
+	
+	a {
+		color: black;
+		}
 
 	nav li {
 		padding-left: 15px;
