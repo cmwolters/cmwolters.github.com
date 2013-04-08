@@ -8,10 +8,12 @@
 		text-transform: uppercase;
 		font-weight: strong;
 		opacity: 0.8;
+		padding-right: 0px;
 		}
 	
 	nav ul {
 		list-style-type: none;
+		padding-right: 0px;
 	}
 
 	nav li {
