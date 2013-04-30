@@ -21,11 +21,12 @@ nav {
 	margin: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
-	
+	padding-bottom: 10px;
 	}	
 	
 nav a {
 	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1.3em;
 	text-transform: uppercase;
 	font-weight: strong;
 	color: #c06000;
@@ -34,7 +35,21 @@ nav a {
  	
  nav ul {
  	list-style-type: none;
+ 	padding-left: 0;
  	}
+ 	
+ nav ul li {
+ 	position: relative;
+ 	display: inline;
+ 	}
+ 	
+ nav li ul {
+ 	position: absolute;
+ 	top: 1 em;
+ 	left: 0px;
+ 	display: none;
+ 	background-color: #d5d5d5;
+ 	}	
  	
  nav li {
  	background-color: #d5d5d5;
@@ -45,6 +60,10 @@ nav a {
  	margin-bottom: 10px;
  	float: right;
  	}
+ 	
+ nav li ul li {
+ 	display: block;
+ 	}	
 
  	
  h1, h2 {
@@ -65,17 +84,18 @@ nav a {
  	float: left;
  	text-align: justify;
 	padding-left: 10px;
+	font-size: 1.1em;
+	line-height: 25px;
 	clear: right;
  	}	
  	
  #memorial {
 	float: right;
+	display: block;
 	margin-left: 75px;
 	margin-right: 75px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	border-style: groove;
-	border-width: 2px; 
+	padding-top: 10px;
+	padding-bottom: 10px;
  	}
  	
 
