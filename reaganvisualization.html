@@ -6,7 +6,23 @@
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic,400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="finalstyle.css">
 	<link rel="stylesheet" href="reaganstyle.css">
-	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+<script>
+ $(document).ready(function(){
+       $('#imgcloud').width(200);
+       $('#imgcloud').mouseover(function()
+       {
+          $(this).css("cursor","pointer");
+          $(this).animate({width: "500px"}, 'slow');
+       });
+    
+    $('#imgcloud').mouseout(function()
+      {   
+          $(this).animate({width: "200px"}, 'slow');
+       });
+   });
+ </script>  
 	
 	<title>Visualizations of Reagan's Rhetoric</title>
 	
@@ -47,9 +63,12 @@ to move beyond the "Vietnam Syndrome." This speech was an initial factor in gett
   the history of the Vietnam War.</p>
  </div> 
 
+
+
 <div id="cloud">
-<img src="reagancloud.jpg">
+<img src="reagancloud.jpg" id="imgcloud">
 </div>
+
 
 <h2>Reagan's Word Cloud</h2>
 
