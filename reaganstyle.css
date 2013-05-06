@@ -1,0 +1,86 @@
+h1 {
+	font-family: Optima;
+	font-size: 1.8em;
+	line-height: 30px;
+	}
+	
+body {
+	text-align: justify;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 1.1em;
+	line-height: 25px;
+	float: left;
+	}	
+	
+blockquote {
+	font-family: optima;
+	font-size: 1.3em;
+	background: url(quote-mark.jpg) no-repeat;     
+    margin: 15px;
+    padding: 30px 30px 30px 50px;
+    clear: both;
+	}	
+	
+figcaption {
+	font-size: 0.8em;
+	float: left;
+	color: #c06000;
+	}
+
+	
+#intro {
+	font-style: italic;
+	color: #4C4C4C;
+	}
+	
+#bushcloud {
+	float: right;
+	padding-left: 25px;
+	}		
+
+#cloud {
+	float: right;
+	clear: both;
+	padding-left: 25px;
+	display: block;
+	} 
+	
+#speech {
+	text-align: justify;
+	line-height: 25px;
+	float: right;
+	}	
+	
+	
+#clintoncloud {
+	float: right;
+	padding-left: 25px;
+	}
+		
+#men {
+	float: left;
+	clear: both;
+	padding-right: 25px;
+	}	
+	
+#hertree {
+	float: right;
+	clear: both;
+	padding-left: 25px;
+	}	
+	
+#bushtree {
+	float: left;
+	clear: both;
+	display: block;
+	padding-right: 25px;
+	}
+			
+			
+#clintonphrase {
+	float: left;
+	clear: both;
+	display: block;
+	padding-right: 25px;
+	}			

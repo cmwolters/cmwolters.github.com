@@ -6,22 +6,21 @@
 
 header {
 	background-color: #d5d5d5;
-	postion: fixed;
-	margin-left: 0px;
-	padding-right: 0px;
-	padding-left: 0px;
 	padding-top: 10px;
 	padding-bottom: 41px;
-	width: 100%;
+	display:block;
+	margin-left: -60px;
+	margin-right: -65px;
 	}
 	
 nav {
-	width: 100%;
-	background-color: d5d5d5;
+	display: block;
+	background-color: #d5d5d5;
 	margin: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
 	padding-bottom: 10px;
+	width: 100%;
 	}	
 	
 nav a {
@@ -30,7 +29,6 @@ nav a {
 	text-transform: uppercase;
 	font-weight: strong;
 	color: #c06000;
-	width: 100%;
 	}	
  	
  nav ul {
@@ -71,15 +69,21 @@ nav a {
  	color: #223b1b;
  	}	
  	
+ h1 a{
+ 	font-family: Optima;
+ 	color: #223b1b;
+ 	}	
+ 	
  body {
  	font-family: 'Roboto Condensed', sans-serif;
  	color: #608020;
- 	margin-left: 25px;
+	margin: 0 25px;
+	padding:0;
  	}
  	
  	
  #content {
- 	margin-left: 75px;
+ 	margin-left: 20px;
  	margin-right: 100px;
  	float: left;
  	text-align: justify;
@@ -93,12 +97,11 @@ nav a {
 	float: right;
 	display: block;
 	margin-left: 75px;
-	margin-right: 75px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	margin-right: 50px;
+	padding-top: 40px;
+	padding-bottom: 175px;
  	}
  	
-
 	
 #footer	{
 	width: 80%;
