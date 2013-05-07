@@ -6,6 +6,26 @@
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic,400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="finalstyle.css">
 	<link rel="stylesheet" href="reaganstyle.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+<script>
+ $(document).ready(function(){
+       $('#imgccloud').width(500);
+       $('#imgccloud').mouseover(function()
+       {
+          $(this).css("cursor","pointer");
+          $(this).animate({width: "650px"}, 'slow');
+       });
+    
+    $('#imgccloud').mouseout(function()
+      {   
+          $(this).animate({width: "500px"}, 'slow');
+       });
+   });
+ </script>  
+	
+	
+	
 	<title>Visualizations of Clinton's Rhetoric</title>
 	
 	
@@ -57,7 +77,7 @@ his relationship with Vietnam veterans. Therefore, his 1993 speech cements the h
 memory of the Vietnam War created by the previous administrations.</p>
 
 <div id="clintoncloud">
-<img src="Clinton_Word_Cloud.jpg">
+<img src="Clinton_Word_Cloud.jpg" id="imgccloud">
 </div>
 
 <h2>Clinton's Word Cloud</h2>
@@ -70,8 +90,25 @@ more visible &mdash; "resolve" and "disagree" are two of the most prominent word
 of veteran sacrifice, like Reagan and Bush commonly did, Clinton generically acknowledges 
 the service of all veterans.</p>
 
+
+<script>
+ $(document).ready(function(){
+       $('#imgphrase').width(500);
+       $('#imgphrase').mouseover(function()
+       {
+          $(this).css("cursor","pointer");
+          $(this).animate({width: "650px"}, 'slow');
+       });
+    
+    $('#imgphrase').mouseout(function()
+      {   
+          $(this).animate({width: "500px"}, 'slow');
+       });
+   });
+ </script> 
+
 <div id="clintonphrase">
-<img src="Clinton_phrasenet.jpg">
+<img src="Clinton_phrasenet.jpg" id="imgphrase">
 </div>
 
 <h2>Clinton's Phrases</h2>

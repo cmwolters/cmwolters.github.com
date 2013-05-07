@@ -10,16 +10,16 @@
 
 <script>
  $(document).ready(function(){
-       $('#imgcloud').width(200);
+       $('#imgcloud').width(500);
        $('#imgcloud').mouseover(function()
        {
           $(this).css("cursor","pointer");
-          $(this).animate({width: "500px"}, 'slow');
+          $(this).animate({width: "650px"}, 'slow');
        });
     
     $('#imgcloud').mouseout(function()
       {   
-          $(this).animate({width: "200px"}, 'slow');
+          $(this).animate({width: "500px"}, 'slow');
        });
    });
  </script>  
@@ -85,8 +85,25 @@ failure previously associated with the war. Through the use of this language, Re
 able to change American opinion about the Vietnam War. Not only did he associate the war with 
 veteran sacrifice, but he also marginalized women from its memory.</p>
 
+
+<script>
+ $(document).ready(function(){
+       $('#imgmen').width(500);
+       $('#imgmen').mouseover(function()
+       {
+          $(this).css("cursor","pointer");
+          $(this).animate({width: "650px"}, 'slow');
+       });
+    
+    $('#imgmen').mouseout(function()
+      {   
+          $(this).animate({width: "500px"}, 'slow');
+       });
+   });
+ </script>  
+
 <div id="men">
-<p><img src="Reagan_men.jpg"></p>
+<img src="Reagan_men.jpg" id="imgmen">
 </div>
 <h2>Reagan's Word Trees</h2>
 <p>The word trees show how different words are used in the context of the same six of Reagan's 
@@ -101,8 +118,25 @@ Reagan does not call attention to female veteran's fulfillment of civic duty. Th
 shows how these words are only used when addressing the service of men.</p>
 
 
+<script>
+ $(document).ready(function(){
+       $('#imgher').width(500);
+       $('#imgher').mouseover(function()
+       {
+          $(this).css("cursor","pointer");
+          $(this).animate({width: "650px"}, 'slow');
+       });
+    
+    $('#imgher').mouseout(function()
+      {   
+          $(this).animate({width: "500px"}, 'slow');
+       });
+   });
+ </script>  
+
+
 <div id="hertree">
-<p><img src="Reagan_her.jpg"></p>
+<p><img src="Reagan_her.jpg" id="imgher"></p>
 </div>
 
 
@@ -123,5 +157,8 @@ Published by Caitlin Wolters, George Mason University: Twitter <a href="https://
 	<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">
 	<img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" 
 	/></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</p>
+<div id="links">
+<p><a href="#">About</a> <a href="#">Contact</a> <a href="#">Bibliography</a></p>
+</div>
 </div>
 </html>
