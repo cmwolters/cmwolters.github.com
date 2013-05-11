@@ -80,6 +80,11 @@ nav a {
 	margin: 0 25px;
 	padding:0;
  	}
+
+#links a {
+ 	color: #223b1b;
+ 	}
+ 	
  	
  	
  #content {
@@ -109,8 +114,22 @@ nav a {
 	color: #003300;
 	font-size: 0.8em;
 	clear: both;
+	line-height: 12px;
 	}
 
-#links {
+#footer a {
+	color: 	#608020;
+	}
+
+#about {
+	color: 	#608020;
+	
+	}
+
+#about a {
 	float: right;
+	padding-right: 20px;
+	color: 	#c06000;
+	text-transform: uppercase;
+	padding-bottom: 15px;
 	}
