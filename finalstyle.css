@@ -2,7 +2,7 @@
  * Default styles
  */
 
-
+@media screen and (max-width: 1260px) {	
 
 header {
 	background-color: #d5d5d5;
@@ -86,7 +86,6 @@ nav a {
  	}
  	
  	
- 	
  #content {
  	margin-left: 20px;
  	margin-right: 100px;
@@ -133,3 +132,6 @@ nav a {
 	text-transform: uppercase;
 	padding-bottom: 15px;
 	}
+
+}	
+
